@@ -1,0 +1,47 @@
+.app-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #1e293b;
+  font-size: 35px;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+}
+.search-input-container {
+  display: flex;
+  border: 1px solid #7b8794;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.input-ele {
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  height: 28px;
+  width: 350px;
+}
+.icon-size {
+  width: 25px;
+}
+.tabs-container {
+  display: flex;
+  list-style-type: none;
+
+  align-items: center;
+}
+.app-item-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  width: 125px;
+  height: 105px;
+}
